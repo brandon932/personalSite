@@ -10,7 +10,16 @@
 body {
   font-family: 'Lato', arial, sans-serif;
   color: #434343;
-  background: #dae3e7;
+  /*background: #dae3ek7;*/
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+     background-attachment:fixed;
+    max-width: 100%;
+    max-height: 100%;
+  background-image: url("../images/backgrounds.jpg");
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -257,7 +266,7 @@ iframe {
   top: 18px;
   width: 158px;
   padding: 10px 10px;
-  font-size: 15px;
+  font-size: 10px;
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
@@ -267,6 +276,9 @@ iframe {
   -moz-transform: rotate(45deg) translate3d(0, 0, 0);
   -ms-transform: rotate(45deg) translate3d(0, 0, 0);
   -o-transform: rotate(45deg) translate3d(0, 0, 0);
+}
+.ribbon{
+  font-size: 10px;
 }
 .latest .featured-image .ribbon .text:before,
 .latest .featured-image .ribbon .text:after {
@@ -282,6 +294,9 @@ iframe {
 }
 .latest .featured-image .ribbon .text:after {
   right: 0;
+}
+.featured-image{
+  margin-left: 25%
 }
 /* Projects Section */
 .projects .item {
